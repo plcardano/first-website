@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: #810000;
+  background-color: #eeebdd;
+}
+
+.top-container {
+  padding-top: 100px;
+  background-color: #1b1717;
+  position: relative;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  margin-top: 30px;
+  background-color: #1b1717;
+  position: relative;
+  padding: 50px 0 20px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 6rem;
+  font-family: 'Sacramento', cursive;
+  color: #810000;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  color: #810000;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #810000;
+}
+
+hr {
+  border: dotted #000000 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #810000;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eeebdd;
+}
+
+.pro {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.intro {
+  margin: auto;
+  width: 30%
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 150px auto;
+  text-align: left;
+}
+
+.code-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.dota-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 50px;
+}
+
+.copyright {
+  color: #eeebdd;
+  font-size: .75em;
+  padding: 20px 0;
+}
+
+.btn-container {
+  margin: 50px;
+}
+
+.btn {
+  background: #810000;
+  background-image: -webkit-linear-gradient(top, #810000, 810000);
+  background-image: -moz-linear-gradient(top, #810000, 810000);
+  background-image: -ms-linear-gradient(top, #810000, 810000);
+  background-image: -o-linear-gradient(top, #810000, 810000);
+  background-image: linear-gradient(to bottom, #810000, 810000);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #630000;
+  background-image: -webkit-linear-gradient(top, #630000, #630000);
+  background-image: -moz-linear-gradient(top, #630000, #630000);
+  background-image: -ms-linear-gradient(top, #630000, #630000);
+  background-image: -o-linear-gradient(top, #630000, #630000);
+  background-image: linear-gradient(to bottom, #630000, #630000);
+  text-decoration: none;
+}
